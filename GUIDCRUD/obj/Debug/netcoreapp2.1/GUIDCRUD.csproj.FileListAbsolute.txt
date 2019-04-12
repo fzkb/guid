@@ -1,0 +1,27 @@
+C:\Users\frank.k\source\repos\GUIDCRUD\bin\Debug\netcoreapp2.1\GUIDCRUD.deps.json
+C:\Users\frank.k\source\repos\GUIDCRUD\bin\Debug\netcoreapp2.1\GUIDCRUD.runtimeconfig.json
+C:\Users\frank.k\source\repos\GUIDCRUD\bin\Debug\netcoreapp2.1\GUIDCRUD.runtimeconfig.dev.json
+C:\Users\frank.k\source\repos\GUIDCRUD\bin\Debug\netcoreapp2.1\GUIDCRUD.dll
+C:\Users\frank.k\source\repos\GUIDCRUD\bin\Debug\netcoreapp2.1\GUIDCRUD.pdb
+C:\Users\frank.k\source\repos\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.csproj.CoreCompileInputs.cache
+C:\Users\frank.k\source\repos\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.RazorAssemblyInfo.cache
+C:\Users\frank.k\source\repos\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.RazorAssemblyInfo.cs
+C:\Users\frank.k\source\repos\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.AssemblyInfoInputs.cache
+C:\Users\frank.k\source\repos\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.AssemblyInfo.cs
+C:\Users\frank.k\source\repos\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.RazorTargetAssemblyInfo.cache
+C:\Users\frank.k\source\repos\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.dll
+C:\Users\frank.k\source\repos\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.pdb
+C:\Users\frank.k\source\repos\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.csprojAssemblyReference.cache
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\bin\Debug\netcoreapp2.1\GUIDCRUD.deps.json
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\bin\Debug\netcoreapp2.1\GUIDCRUD.runtimeconfig.json
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\bin\Debug\netcoreapp2.1\GUIDCRUD.runtimeconfig.dev.json
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\bin\Debug\netcoreapp2.1\GUIDCRUD.dll
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\bin\Debug\netcoreapp2.1\GUIDCRUD.pdb
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.csproj.CoreCompileInputs.cache
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.RazorAssemblyInfo.cache
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.RazorAssemblyInfo.cs
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.AssemblyInfoInputs.cache
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.AssemblyInfo.cs
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.RazorTargetAssemblyInfo.cache
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.dll
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.pdb
