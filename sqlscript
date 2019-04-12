@@ -1,0 +1,23 @@
+USE [GUIDDB]
+GO
+
+/****** Object:  Table [dbo].[GUIDEntity]    Script Date: 4/12/2019 4:25:40 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[GUIDEntity](
+	[GuidValue] [nvarchar](32) NOT NULL,
+	[User] [varchar](100) NOT NULL,
+	[Expire] [int] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
