@@ -29,6 +29,14 @@ namespace GUIDCRUD.Controllers
         {
             _context = context;
             _distributedCache = distributedCache;
+
+            var cacheKey = "ExpiryTime";
+
+            var existingTime = _distributedCache.GetString(cacheKey);
+
+            existingTime = ((Int32)(DateTime.UtcNow.AddDays(30).Subtract(new DateTime(1970, 1, 1))).TotalSeconds).ToString();
+            _distributedCache.SetString(cacheKey, existingTime);
+
         }
 
         /// <summary>
@@ -39,14 +47,6 @@ namespace GUIDCRUD.Controllers
         [HttpGet]
         public IEnumerable<GUIDEntity> GetGuidEntities()
         {
-            var cacheKey = "ExpiryTime";
-
-            var existingTime = _distributedCache.GetString(cacheKey);
-
-            existingTime = ((Int32)(DateTime.UtcNow.AddDays(30).Subtract(new DateTime(1970, 1, 1))).TotalSeconds).ToString();
-            _distributedCache.SetString(cacheKey, existingTime);
-
-
             return _context.GuidEntities;
         }
 
@@ -204,10 +204,10 @@ namespace GUIDCRUD.Controllers
             var gUIDEntity = await _context.GuidEntities.FindAsync(id);
             if (gUIDEntity == null)
             {
-                return NotFound();
+                return Ok("Not found");
             }
 
-            _context.GuidEntities.Remove(gUIDEntity);
+            //_context.GuidEntities.Remove(gUIDEntity);
             await _context.SaveChangesAsync();
 
             return NoContent();

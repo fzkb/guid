@@ -31,10 +31,20 @@ namespace GUIDCRUD
 
             // Add configuration for DbContext
             // Use connection string from appsettings.json file
-            services.AddDbContext<GUIDEntityDbContext>(options =>
+            if (Configuration["AppSettings:ConnectionStrings:SQLConnection"] != null)
             {
-                options.UseSqlServer(Configuration["AppSettings:ConnectionStrings:SQLConnection"]);
-            });
+                services.AddDbContext<GUIDEntityDbContext>(options =>
+                {
+                    options.UseSqlServer(Configuration["AppSettings:ConnectionStrings:SQLConnection"]);
+                });
+            }
+            else if (Configuration["connectionString"].ToString() != "")
+            {
+                services.AddDbContext<GUIDEntityDbContext>(options =>
+                {
+                    options.UseSqlServer(Configuration["connectionString"].ToString());
+                });
+            }
 
             // Set up dependency injection for controller's logger
             services.AddScoped<ILogger, Logger<GUIDEntitiesController>>();

@@ -25,3 +25,4 @@ C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.A
 C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.RazorTargetAssemblyInfo.cache
 C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.dll
 C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.pdb
+C:\OtherProjects\Net core\GUIDEntity\GUIDCRUD\obj\Debug\netcoreapp2.1\GUIDCRUD.csprojAssemblyReference.cache

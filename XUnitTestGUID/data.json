@@ -1,0 +1,28 @@
+{
+  "UPDATE": [
+    [
+      "PUT",
+      "42441E8BEC3D488E8B8E6C1D861B5AA7",
+      {
+        "expire": 1427736345
+      }
+    ]
+  ],
+  "ADDBYGUID": [
+    [
+      "POST",
+      {
+        "expire": 1427736345,
+        "user": "kh, faraz"
+      }
+    ]
+  ],
+  "ADDBYUSER": [
+    [
+      "POST",
+      {        
+        "user": "kh, faraz"
+      }
+    ]
+  ]
+}

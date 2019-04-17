@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,14 +11,28 @@ namespace GUIDCRUD.Models
     /// <summary>
     /// Initaites the GUID Entity class
     /// </summary>
-    public partial class GUIDEntity
-    {
+    public partial class GUIDEntity 
+    {        
         /// <summary>
-        /// 
+        /// Default constructor
         /// </summary>
         public GUIDEntity()
         {
 
+        }
+
+        public GUIDEntity(int expire)
+        {            
+            Expire = expire;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public GUIDEntity(int expire, string username)
+        {
+            User = username;
+            Expire = expire;
         }
 
         /// <summary>
@@ -38,13 +53,13 @@ namespace GUIDCRUD.Models
         /// 
         /// </summary>
         public string User { get; set; }
-        
+
 
         /// <summary>
         /// 
         /// </summary>
         public int? Expire { get; set; }
-
+      
     }
 
     /// <summary>
@@ -63,7 +78,7 @@ namespace GUIDCRUD.Models
 
             builder.HasKey(p => p.GuidValue);
 
-            builder.Property(p => p.User).HasColumnType("varchar(100))").IsRequired();           
+            builder.Property(p => p.User).HasColumnType("varchar(100))").IsRequired();
 
             builder.Property(p => p.Expire).HasColumnType("int");
 
