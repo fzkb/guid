@@ -24,7 +24,7 @@ namespace XUnitTestGUID.API
     {
         private readonly HttpClient _httpClient;
 
-        private readonly string _connectionString = "server=CBSDEVSVR06;database=GUIDDB;integrated security=yes;";
+        private readonly string _connectionString = "server=[DBServer];database=GUIDDB;integrated security=yes;";
 
         public GUIDEntityTest()
         {          
